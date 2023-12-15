@@ -24,7 +24,9 @@ import image from "../images/top_section_bg.jpg";
 
 const imageAltText = "Mountain view over a forest";
 
+
 const Home = ({ name, title }) => {
+
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
@@ -33,7 +35,7 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <img src={arrowSvg} style={{ height: "3rem", width: "3rem", animation: 'bounce 2s infinite' }} alt={imageAltText} />
       </div>
     </section>
   );
