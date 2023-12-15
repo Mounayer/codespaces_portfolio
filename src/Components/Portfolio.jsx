@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio_section_img.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A desk with code on the screen of the computer";
 
 /**
  * Project list
@@ -31,29 +31,56 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Aten RPG",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A voice-acted role-playing game developed using C++ and the Qt framework.",
+    url: "https://www.almnayer.com/atenrpg",
   },
   {
-    title: "Web Development for Beginners",
+    title: "BeatSeeker",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A concert ticketing system developed with Django, Python, JavaScript, HTML, and CSS.",
+    url: "https://github.com/Mounayer/BeatSeeker_Concert_Ticketing_System",
   },
   {
-    title: "My Resume Site",
+    title: "Portfolio Website",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "An elegantly designed, responsive showcase of my professional journey and projects, created using Next.js for a seamless user experience.",
+    url: "https://www.almnayer.com/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Lock-It",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Encrypted data vault for file storage, developed using Node.js, JavaScript, Next.js, and AWS Services.",
+    url: "https://github.com/Mounayer/Team-BSD-Bell-Geekfest-Hackathon-2023",
   },
+  {
+    title: "Efficient String Library",
+    description:
+      "A C++ library that offers optimized string operations, using 7 bits for each character. Providing a total of 12.5% memory savings over the standard C++ string library.",
+    url: "https://github.com/Mounayer/The-Efficient-String-Library",
+  }
+  ,
+  {
+    title: "Fade Scroll Hook",
+    description:
+      "A custom React Hook designed to fade components in and out during scrolling.",
+    url: "https://github.com/Mounayer/useFadeScroll-React-Hook",
+  }
+  ,
+  {
+    title: "Algorithm Profiler",
+    description:
+      "A tool that measures the performance of algorithms in C++, utilizing gnuplot and matplotplusplus.",
+    url: "https://github.com/Mounayer/Algorithm_Profiler",
+  }
+  ,
+  {
+    title: "CollegeChat",
+    description:
+      "A system that allows students to communicate with each other and their professors per course, developed using Node.js, Typescript, Next.js, MongoDB, Postgress, and AWS Services.",
+    url: "#",
+  }
 ];
 
 const Portfolio = () => {
